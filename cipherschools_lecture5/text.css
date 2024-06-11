@@ -1,0 +1,64 @@
+
+/* elemnet selector */
+/* p{
+    text-align: center;
+} */
+
+/* id selector */
+/* #myPara {
+    text-align: center;
+} */
+
+
+/* class selector */
+.center_para{
+    text-align: center;
+}
+
+/* universal selector */
+*{
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* grouping selector */
+.center_para,h1{
+    text-align: center;
+}
+
+/* Decendent Selector */
+/* div p {
+    background-color: rgb(44, 216, 21);
+}
+
+div > p {
+    background-color: cyan;
+} */
+
+/* 
+Adjacent sibling Selector */
+/* div+ p {
+    background-color: brown;
+} */
+
+
+/* General sibling Selector 
+only the next sibling next to specified element is selected */
+/* div ~ p {
+    background-color: brown;
+} */
+
+/* Pseudo-class Selector */
+/* div ~ p:hover {
+    background-color: brown;
+} */
+
+/* Pseudo-element Selector  */
+/* div ~ p::first-letter {
+    background-color: brown;
+} */
+
+/* Attribute Selector */
+a[target]{
+    background-color: brown;
+}
