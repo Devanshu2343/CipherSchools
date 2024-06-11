@@ -1,0 +1,12 @@
+1) Simple Selector
+   --> Element Selector
+   --> Id Selector
+2) Combinator Selector 
+   -->Decendent Selector
+   -->child Selector
+   -->Adjacent sibling Selector
+   -->General sibling Selector
+
+3) Pseudo-class Selector : apply style on certain state , such as hover of mouse
+4) Pseudo-element Selector : used to style specified part of the element 
+5) Attribute Selector
