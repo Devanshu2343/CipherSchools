@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page title</title>
+</head>
+<body>
+    <main>
+        <h1 onclick="this.innerHTML=`This is after click!`">My page title</h1> 
+        <h1 onclick="changeText(this)">List is here </h1>
+        <p>Nice caption goes here</p>
+
+        <article class="first_article">
+            <h2>list of amazing fruits</h2>
+            <p>Must eat fruits</p>
+            <div class="wrapper_1">
+                <ul class="fruits_list">
+                    <li class="apple"> Apples</li>
+                    <li class="orange "> Orange</li>
+                    <li class="Avocados">Avacados</li>
+                    <li class="grapes">Grapes
+                        <ul>
+                            <li class="type_1">Moon Driops</li>
+                            <li>sultana</li>
+                            <li>concord</li>
+                            <li>crimson seedless</li>
+                        </ul>
+
+                    </li>
+                    <li class="banana">Bananas</li>
+                </ul>
+                <button class="btn_1">Read full list</button>
+            </div>
+        </article>
+
+        <article class="second_article">
+            <h2>Amazing places in Kenaya</h2>
+            <p>Must visit pplaces in Keneya</p>
+
+
+            <div class="wrapper_2">
+                <ul class="places_list">
+                    <li>aasai Mara</li>
+                    <li>Diani Beach</li>
+                    <li>Watamu Beach</li>
+                    <li>Lake Nakaru</li>
+                    <li>National Park</li>
+    
+                </ul>
+                <button class="btn_2"> Read Full List</button>
+    
+            </div>
+            <div>
+                <button onclick="DisplayDate()">The time is : </button>
+                <p id="demo"></p>
+    
+            </div>
+
+        </article>
+         
+    </main>
+    <script>
+        function changeText(id){
+            id.innerHTML= `This is after click!! ` ;
+        }
+
+        function DisplayDate(){
+            document.getElementById("demo").innerHTML = new Date();
+        }
+
+    </script>
+</body>
+</html>
