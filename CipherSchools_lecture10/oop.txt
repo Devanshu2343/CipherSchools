@@ -1,0 +1,16 @@
+Objects : It is a unique entity that contains properties and methods.
+          It is an instance of an class.
+
+Methods in JS : It is a property of an object whose value is function.
+
+
+1. Object Literals
+2. Object Constructor
+3. Object.create()
+
+Classes : Classes are the blueprint of an object.
+
+
+Abstraction : Display only the essential information and hide details.
+
+Encapsulation : The process of wrapping functions and properties in a single unit is called encapsulation .
