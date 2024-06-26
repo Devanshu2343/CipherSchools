@@ -1,0 +1,10 @@
+To install nodeJS 
+
+npm install -g npm
+npm -v
+
+
+To install react
+
+npm -g i create-react-app
+sudo npm -g i create-react-app
