@@ -1,0 +1,11 @@
+commands for installing create react app in terminal 
+
+     npm install -g create-react-app
+
+
+create a new react project in VS code inside the required folder
+
+    npx create-react-app first_app
+
+        cd  first_app
+        npm start
