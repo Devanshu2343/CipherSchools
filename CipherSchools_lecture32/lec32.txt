@@ -1,0 +1,14 @@
+                                      
+
+                                      MongoDb + Express + React + Node
+
+
+                                            System <-> React <-> Node + Express <-> MongoDB
+
+                                             REST API has 2 parts:
+                                             1. URL
+                                             2. HTTP method 
+
+               REST API stands for   Representational State Transfer Application Programming Interface
+
+
