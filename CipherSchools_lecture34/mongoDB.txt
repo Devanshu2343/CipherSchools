@@ -1,0 +1,4 @@
+MongoDB : 1) It is non- relational database
+          2) We can create search intensive applications such as e-commerce website
+          3) It is incapable of creating relations between data so it is not suitable for banking website or stock market application.
+          4) It is free to use.
